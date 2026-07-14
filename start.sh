@@ -21,6 +21,6 @@ fi
 
 source ./venv/bin/activate
 
-python3 launch.py --share=True "$@"
+python3 launch.py --share "$@"
 
 read
